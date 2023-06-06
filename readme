@@ -1,0 +1,5 @@
+autoit script, utilizing ffmpeg, for compressing videos in target directories/folders/drives/etc. it will scrape all the target files of matching filetypes, then compress them for you. compressed videos get '_c' appended to their filename to let the program know to skip them if it encounters them again, if you run it later on
+
+in testing, i found that my personal porn folder (primarily videos) went from 87 to 23 gigabytes after being compressed
+
+to run you need autoit and ffmpeg, you need to modify $path to the directory you want, $mask to whatever video filetypes you want, and the level of recursion (currently set to -3, see comments)
